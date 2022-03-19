@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url('img/airplane.jpg');
+    background-image: url('//img/airplane.jpg');
     background-size: cover;
 }
 #welcome{
