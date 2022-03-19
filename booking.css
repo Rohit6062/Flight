@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url('/images/vacation-01.jpg'); */
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-color: wheat;
+}
+header h1{
+    color :aqua;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fly{
+    font-size: 22px;
+    color: darkcyan;
+    margin: 10px;
+}
+#form
+{
+    margin: 20px;
+}
+#location
+{
+    padding: 10px;
+}
+#from{
+display: inline;
+}
+#to{
+display: inline;
+}
+#date{
+    margin: 10px;
+}
+#no{
+    margin: 8px;
+}
+#class{
+    margin: 10px;
+}
+#bookB
+{
+    margin: 10px 60px;
+    background-color: aqua;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 5vh;
+    right: 10vh;
+    font-weight: lighter;
+    font-weight:bold;
+}
+@media screen and (max-width:550px){
+    body{
+        box-sizing: border-box;
+    }
+}

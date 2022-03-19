@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('img/airplane.jpg');
+    background-size: cover;
+}
+#welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.msg{
+    margin: 2vw;
+    font-style: italic;
+}
+.form{
+    margin: 2vw;
+}
+.form input{
+    height: 6vh;
+    width: 40%;
+    margin: 2vh;
+}
+#register{
+    display: flex;
+    background-color: brown;
+    margin: 0 0 0 19vw;
+    height: 4vh;
+
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 5vh;
+    left: 10vh;
+    font-weight: lighter;
+}
+.navbar{
+    position: fixed;
+}
